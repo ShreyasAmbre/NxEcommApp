@@ -26,9 +26,11 @@
             "input": "apps/ecomm/public"
           }
         ],
+        "externalDependencies": ["~ng-zorro-antd/ng-zorro-antd.min.css"],
         "styles": [
           "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
-          "apps/ecomm/src/styles.scss"
+          "apps/ecomm/src/styles.scss",
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"
         ],
         "scripts": []
       },
