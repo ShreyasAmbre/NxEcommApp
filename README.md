@@ -17,13 +17,16 @@ Change some configuration
 Create Library
 1. Home (name, buildable as true by default)
 
-Installation of Angular Material
+Installation of UI Component Library
     1. npm install ng-zorro-antd
     2. npx nx g ng-zorro-antd:ng-add --project=ecomm
 
 Changes pushed to New created Repo "NxEcommApp" 
 - Nx Workspace, NG Zorro & Home lib created. 
 
+Chages pushed to master branch
+- menu-nav standolone app created inside apps 
+- shared/assets folder created in root
 
 
 

@@ -10,5 +10,6 @@ import { AntdUiModule } from '@shreyas-workspace/antd'
   styleUrl: './main-nav.component.css'
 })
 export class MainNavComponent {
+  isCollapsed = false;
 
 }
