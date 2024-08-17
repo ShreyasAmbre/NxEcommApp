@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'lib-home',
-  standalone: true,
-  imports: [CommonModule],
+  standalone: false,
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })

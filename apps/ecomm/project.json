@@ -24,6 +24,11 @@
           {
             "glob": "**/*",
             "input": "apps/ecomm/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "shared/assets/",
+            "output": "apps/ecomm/public/assets/"
           }
         ],
         "externalDependencies": ["~ng-zorro-antd/ng-zorro-antd.min.css"],

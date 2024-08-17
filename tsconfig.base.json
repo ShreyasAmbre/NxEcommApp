@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shreyas-workspace/home": ["libs/home/src/index.ts"]
+      "@shreyas-workspace/home": ["libs/home/src/index.ts"],
+      "@shreyas-workspace/antd": ["libs/shared/antd/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

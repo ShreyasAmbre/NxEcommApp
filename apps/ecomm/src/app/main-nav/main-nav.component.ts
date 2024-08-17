@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { NzButtonModule } from 'ng-zorro-antd/button';
-import { NzMenuModule } from 'ng-zorro-antd/menu';
-import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzImageModule } from 'ng-zorro-antd/image';
+import { RouterModule } from '@angular/router';
+import { AntdUiModule } from '@shreyas-workspace/antd'
+
 @Component({
   selector: 'app-main-nav',
   standalone: true,
-  imports: [NzButtonModule, NzMenuModule, NzLayoutModule, NzImageModule],
+  imports: [RouterModule, AntdUiModule],
   templateUrl: './main-nav.component.html',
   styleUrl: './main-nav.component.css'
 })
