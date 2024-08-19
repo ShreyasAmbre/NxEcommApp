@@ -29,6 +29,16 @@ Chages pushed to master branch
 - shared/assets folder created in root
 
 
+Installing NgRx Store
+- npm install @ngrx/store --save
+- npm install @ngrx/effects --save
+- Created Category Lib inside libs folder and deletec module file and remove entry from index.ts.
+- Added action, reducer, effects, service & selector file inside category library
+- Integrated category  "fakestoreapi ecomm api"
+- imported store, state & effects in app.config.ts of ecomm project  
+- npm install @ngrx/devtools --save
+
+
 
 
 

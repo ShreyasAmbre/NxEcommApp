@@ -15,8 +15,12 @@
         />
       </div>
       <ul nz-menu nzTheme="dark" nzMode="horizontal">
-        <li nz-menu-item>Home</li>
-        <li nz-menu-item>Dashboard</li>
+        <li nz-menu-item>Categories</li>
+        <li  nz-submenu nzTitle="Categories">
+          <ul>
+            <li nz-menu-item *ngFor="let category of categories">{{category | titlecase}}</li>
+          </ul>
+        </li>
         <li nz-menu-item>Contact</li>
         <li nz-menu-item>Profile</li>
       </ul>
@@ -27,7 +31,6 @@
       Content
       <router-outlet></router-outlet>
     </div>
-
   </nz-content>
   <nz-footer>E-Comm App ©2024 Implement By Shreyas Ambre</nz-footer>
 </nz-layout>
